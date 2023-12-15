@@ -1,5 +1,10 @@
-export const Button = () => {
+import {ComponentProps} from "react"
+
+type ButtonProps = ComponentProps<"button">
+
+
+export const Button = ({...props} : ButtonProps) => {
     return (
-        <button>Start button</button>
+        <button className="text-blue-500" {...props}/>
     )
 }
