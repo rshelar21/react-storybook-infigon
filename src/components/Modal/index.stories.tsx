@@ -1,30 +1,31 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Card } from ".";
+import { Modal } from ".";
 
-const meta: Meta<typeof Card> = {
-  title: "Components/Card",
-  component: Card,
+const meta: Meta<typeof Modal> = {
+  title: "Components/Modal",
+  component: Modal,
   parameters: {
     layout: "centered",
   },
   tags: ["autodocs"],
 };
-
 export default meta;
-type Story = StoryObj<typeof meta>;
 
-export const Solid: Story = {
+type Story = StoryObj<typeof Modal>;
+
+export const solid: Story = {
   args: {
     variant: "solid",
   },
 };
 
-export const Outline: Story = {
+export const outline: Story = {
   args: {
     variant: "outline",
   },
 };
-export const Shadow: Story = {
+
+export const ghost: Story = {
   args: {
     variant: "ghost",
   },
