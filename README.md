@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-## To run this project use following commands
+## To run this project use the following commands
 npm i 
 npm run storybook
 
