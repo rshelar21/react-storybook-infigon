@@ -2,6 +2,7 @@
 
 ## To run this project use the following commands
 npm i 
+
 npm run storybook
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
